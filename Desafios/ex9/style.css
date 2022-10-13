@@ -1,0 +1,16 @@
+* {
+    background-color: darkslategrey;
+    color: goldenrod;
+    font-family: arial;
+
+
+}
+
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

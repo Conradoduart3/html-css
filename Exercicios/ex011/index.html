@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Imagen dinamica</h1>
+    <p>aumente e diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(min-width:1050px)" srcset="images/G.jpg" type="image/jpg">
+        <source media="(min-width:750px)" srcset="images/M.jpg" type="image/jpg">
+        <img src="images/P.jpg" alt="Fogo grande">
+    </picture>
+    <p>Reproduzindo audio strong limitada</p>
+    <audio preload="metadata" controls>
+
+        <source src="media/bits.mp3" type="audio/mpeg">
+        <p>seu navegador não é compativel</p>
+    </audio>
+
+</body>
+
+
+</html>

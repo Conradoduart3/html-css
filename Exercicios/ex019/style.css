@@ -1,0 +1,39 @@
+@charset 'utf-8';
+
+/*
+ID EM HTML > # EM CSS
+CLASS EM HTML > . EM CSS
+*/
+body{
+    background-color: #d4e6f7;
+    font-family: sans-serif;
+}
+
+h1{
+    color: #618BB0;
+}
+#principal{
+    text-align: center;
+    background-color: #618BB0 ;
+    color: white;
+    border-radius: 20PX;}
+
+
+h2{
+    color: #3E5970;
+ 
+}
+ .basic{
+    color: #469743;
+
+ }
+ .medium{
+    color: #969743;
+ } 
+ .hard{
+    color: #974343;
+ }
+ 
+.destaque{
+    background-color: rgba(255, 255, 0, 0.527);
+}
