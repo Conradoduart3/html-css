@@ -8,32 +8,33 @@
     <title>Alinhamento Vertical</title>
     <style>
         #container {
+
+            position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 500px;
+            height: 100vw;
             padding: 10px;
             background: purple;
+            background-image: url(images/target001.png);
+            background-size: 100% 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
 
         }
 
         #conteudo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            height: 250px;
-            width: 400px;
-            left: 90px;
-            top: 70px;
-            background: yellow;
-
+            position: absolute;
+            background-color: yellow;
+            background-image: url(images/target001.png);
+            background-size: 100% 100%;
+            width: 192px;
+            height: 108px;
         }
     </style>
 </head>
 
 <body>
-
     <section id="container">
         <article id="conteudo">
 
