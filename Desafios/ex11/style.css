@@ -1,0 +1,63 @@
+@charset  "UTF-8";
+
+@font-face {
+    font-family: 'Passion One', cursive;
+    src: url(fonts/PassionOne-Regular.otf) format(opentype);
+    font-weight: normal;
+}
+*,
+*::after
+*::before{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fonte2: 'Passion One', cursive;
+}
+body{
+    margin: 0%;
+}
+header{
+    text-align: center;
+    height: 200px;
+    background: black;
+    color: white;
+}
+header >h1{
+    padding-top: 5%;
+    margin: 0%;
+    font-family: var(--fonte2);
+    font-size: 10vh;
+}
+header > p{
+    font-family: sans-serif;
+    color: white;
+    margin: 0%;
+text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+.normal{
+    text-align: left;
+    font-size: 2em;
+}
+
+footer{
+    
+    font-family: sans-serif;
+    font-size: 1em;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    background: black;
+    height: 35px;
+}
+footer>a> strong{
+    text-transform: uppercase;
+}
